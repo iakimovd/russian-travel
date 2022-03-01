@@ -6,3 +6,11 @@
   grid-template-columns: repeat(5, minmax(min-content, max-content)) auto;
   column-gap: 24px;
 }
+
+@media (min-width: 320px) {
+  .footer {
+    display: flex;
+    max-width: 288px;
+    margin-top: 16px;
+  }
+}
