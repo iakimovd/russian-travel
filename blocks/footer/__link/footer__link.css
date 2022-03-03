@@ -1,8 +1,10 @@
 .footer__link {
+  margin: 0;
+  padding: 0;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.125;
+  line-height: 1.12;
   color: #ffffff;
   /* align-self: start; */
   /* justify-self: start; */
@@ -15,4 +17,14 @@
 .footer__link:hover {
   opacity: 0.8;
   transition: 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 794px) {
+  .footer__link {
+    justify-self: start;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1;
+  }
 }

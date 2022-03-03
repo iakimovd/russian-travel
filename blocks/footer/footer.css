@@ -1,17 +1,46 @@
 .footer {
   max-width: 1184px;
-  height: 52px;
-  margin: 28px auto 56px;
+  /* height: 52px; */
+  margin: 92px auto 24px;
   display: grid;
   grid-template-columns: repeat(5, minmax(min-content, max-content)) auto;
   column-gap: 18px;
 }
 
-@media screen and (max-width: 566px) {
+@media screen and (max-width: 794px) {
   .footer {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
     gap: 32px;
+    margin: 64px auto 24px;
   }
 }
 
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .footer {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .footer {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin: 88px auto 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
