@@ -8,7 +8,6 @@
 
 @media screen and (max-width: 320px) {
   .header {
-    /* display: flex; */
     max-width: 288px;
     height: 42px;
     margin-top: 16px;
@@ -21,7 +20,6 @@
 
 @media (min-width:321px) and (max-width: 768px) {
   .header {
-    /* display: flex; */
     max-width: 720px;
     margin-top: 28px;
     margin-left: 24px;
@@ -32,7 +30,6 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .header {
-    /* display: flex; */
     max-width: 928px;
     margin-top: 28px;
     margin-left: 48px;
@@ -44,7 +41,6 @@
 
 @media (min-width: 1024px) and (max-width: 1280px) {
   .header {
-    /* display: flex; */
     max-width: 1280px;
     margin-top: 28px;
     margin-left: 48px;

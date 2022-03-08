@@ -6,8 +6,6 @@
   grid-template-rows: repeat(3, 1fr);
   gap: 16px;
   list-style: none;
-  /* margin-bottom: 92px;
-  margin-top: 92px; */
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
