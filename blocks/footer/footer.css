@@ -7,7 +7,7 @@
   column-gap: 18px;
 }
 
-@media screen and (max-width: 794px) {
+@media screen and (max-width: 767px) {
   .footer {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
@@ -34,7 +34,7 @@
   .footer {
     margin-left: 24px;
     margin-right: 24px;
-    margin: 88px auto 24px;
+    margin-top: 88px;
   }
 }
 
